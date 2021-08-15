@@ -866,10 +866,6 @@ while run == 1:
 					else: #DON'T end the timer here
 						QuizConclude(), #save info and exit to home
 
-				#Doesn't work
-					Exit = Button(Homepage,text='Exit',command=Home,bg='#003d80',fg='#fc6a03',padx=26,pady=35)
-					Exit.grid(row=0,column=0)
-
 				def QuesGui(question,n,answer):
 					QuestionLabel = Label(Homepage,text=question, bg='#004999', fg='#edc967')
 					QuestionLabel.grid(row=0,column=0,columnspan=3)
